@@ -1,0 +1,255 @@
+{
+  "id": "1c48d4d0-c60f-4f48-b036-5fc74885fb03",
+  "parentId": "959ddcec-c144-4a5e-95fb-bf2c7b34db61",
+  "rootParentId": "2e3fdbdc-b3c9-4f23-a3d6-20935fb6e174",
+  "name": "Order-Start - yes - address",
+  "auto": true,
+  "contexts": [
+    "Order-Start-followup",
+    "Order-Start-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Order-Start.Order-Start-yes.Order-Start-yes-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dd3bfdbc-2f96-4dce-be38-3c638b5a6a04",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            "주소를 알려주세요"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "#Order-Start-yes-followup.color #Order-Start-yes-followup.size 티셔츠 주문이 완료 되었으며 $address로 보내드리겠습니다."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "258d7259-ed59-4d2e-9f07-d2a3d6b796b5",
+      "data": [
+        {
+          "text": "서울",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bf822ecf-502a-4cab-b0d5-431ba88d01ff",
+      "data": [
+        {
+          "text": "서울 강남구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "로 보내주세요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1c0dba64-60df-43e8-81d9-5b7ed4eab44e",
+      "data": [
+        {
+          "text": "서울시 용산구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "로 보내주세요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2afcab31-dc39-4ff3-87c5-a84cb6775204",
+      "data": [
+        {
+          "text": "서울",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "로 보내주세요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "29dab4f4-7008-4a80-828b-16f6faceb8f9",
+      "data": [
+        {
+          "text": "구미",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e7a666f3-ecfd-4bca-acb9-6e6658639f0b",
+      "data": [
+        {
+          "text": "서울 특별시",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a5e1ca68-4f72-4868-a6d8-cfa3678f4c4a",
+      "data": [
+        {
+          "text": "서울시 용산구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "서",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1e44be9a-28c4-4887-b4cc-9575fed2f505",
+      "data": [
+        {
+          "text": "서울시 강남구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5cc0c911-7bae-4125-9c7d-2e7796f3f1bf",
+      "data": [
+        {
+          "text": "경기도 성남시 분당구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "로 보내주세요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d12fe9dc-2946-4c1d-ad83-80dc47e57c06",
+      "data": [
+        {
+          "text": "경기도 성남시 분당구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4c2837ba-f578-41f9-9055-ceee667de936",
+      "data": [
+        {
+          "text": "경기도 성남시 분당구",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "에요",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
