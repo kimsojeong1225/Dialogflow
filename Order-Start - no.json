@@ -1,0 +1,174 @@
+{
+  "id": "2a16a746-584f-4eb7-aeb7-fe6f2908d629",
+  "parentId": "2e3fdbdc-b3c9-4f23-a3d6-20935fb6e174",
+  "rootParentId": "2e3fdbdc-b3c9-4f23-a3d6-20935fb6e174",
+  "name": "Order-Start - no",
+  "auto": true,
+  "contexts": [
+    "Order-Start-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Order-Start.Order-Start-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "주문  를 다시 입력해주세요",
+            "다시 확인해 보겠습니다"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "25038592-f632-452e-ac15-b24d240ebb47",
+      "data": [
+        {
+          "text": "ㄴㄴ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bec3be37-bebb-432a-acf0-80ff1f3df998",
+      "data": [
+        {
+          "text": "아니",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1dca13e4-58ec-484b-a84b-60d150dba2fa",
+      "data": [
+        {
+          "text": "고맙지만 됐어",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c902fba8-2678-4b78-9629-2c5f4895b1a7",
+      "data": [
+        {
+          "text": "그건 아니지",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ff48f0c7-d982-4e7b-8519-cd0908ce69bb",
+      "data": [
+        {
+          "text": "절대 아니야",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fb32f016-6627-47e9-88ff-117317ef3d5e",
+      "data": [
+        {
+          "text": "관심 없어",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ebab7690-8352-4ca6-a69f-c6607b0000dd",
+      "data": [
+        {
+          "text": "싫어",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "96c5ef4b-6f71-4321-a0da-95f55b23c295",
+      "data": [
+        {
+          "text": "아닌 것 같아",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "17e9fa25-01e4-4638-849f-7612ed2d1618",
+      "data": [
+        {
+          "text": "하지 마",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "13914f6d-9783-4654-84e1-4c8629aabbd3",
+      "data": [
+        {
+          "text": "내 생각은 달라",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": true,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

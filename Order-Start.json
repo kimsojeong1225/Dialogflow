@@ -1,0 +1,226 @@
+{
+  "id": "2e3fdbdc-b3c9-4f23-a3d6-20935fb6e174",
+  "name": "Order-Start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Order-Start-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Order-Start-followup-2",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "102be5e4-9b56-4360-9332-034507cf4c65",
+          "required": true,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "prompts": [
+            "어떤 색상을 원하세요?",
+            "색상은 무엇으로 하시겠어요?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ca00bf5f-993a-44a4-ba30-62619ccd900c",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "prompts": [
+            "어떤 사이즈로 주문하시겠어요?",
+            "사이즈 정보를 입력해주세요"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "$color $size 주문하시는 것 맞나요?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "74051ec9-090d-400e-a5ea-a4d2e33355e0",
+      "data": [
+        {
+          "text": "주문 시작할게",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ea74eb58-b795-4c49-846f-f184a56cd5da",
+      "data": [
+        {
+          "text": "주문",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d21e9a3e-e76a-4ebc-aa71-63d829c22594",
+      "data": [
+        {
+          "text": "주문할게주문",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0f8420eb-8277-45d6-aef0-1293e5f19952",
+      "data": [
+        {
+          "text": "red",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "라지",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        },
+        {
+          "text": "사이즈 주문할래",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "82c815e2-4bff-494b-a8fb-a6de80f4496d",
+      "data": [
+        {
+          "text": "빨간색",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": true
+        },
+        {
+          "text": " 티셔츠 주문",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b87d192f-fcc5-4477-88a0-da8d4a64fc50",
+      "data": [
+        {
+          "text": "검정색",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        },
+        {
+          "text": " 티셔츠 ",
+          "userDefined": false
+        },
+        {
+          "text": "백오",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": false
+        },
+        {
+          "text": "사이즈 주문",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f42d47ff-16a0-4db6-9adf-12c3f85e9f78",
+      "data": [
+        {
+          "text": "빨강",
+          "alias": "color",
+          "meta": "@sys.color",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "66f8bbf7-4df6-4135-8325-7590552540b5",
+      "data": [
+        {
+          "text": "105",
+          "alias": "size",
+          "meta": "@size",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

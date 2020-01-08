@@ -1,0 +1,63 @@
+{
+  "id": "a89730f6-b800-47eb-a2d5-9585e8f892f5",
+  "name": "size",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "105",
+      "synonyms": [
+        "105",
+        "엑스라지",
+        "XL",
+        "xlarge",
+        "백오"
+      ]
+    },
+    {
+      "value": "110",
+      "synonyms": [
+        "110",
+        "투엑스라지",
+        "xxl",
+        "xxlarge",
+        "백십"
+      ]
+    },
+    {
+      "value": "100",
+      "synonyms": [
+        "100",
+        "라지",
+        "l",
+        "L",
+        "백"
+      ]
+    },
+    {
+      "value": "95",
+      "synonyms": [
+        "95",
+        "미디엄",
+        "m",
+        "medium",
+        "M",
+        "95",
+        "구십오"
+      ]
+    },
+    {
+      "value": "90",
+      "synonyms": [
+        "90",
+        "스몰",
+        "small",
+        "s",
+        "S"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}

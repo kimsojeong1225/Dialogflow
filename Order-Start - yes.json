@@ -1,0 +1,263 @@
+{
+  "id": "959ddcec-c144-4a5e-95fb-bf2c7b34db61",
+  "parentId": "2e3fdbdc-b3c9-4f23-a3d6-20935fb6e174",
+  "rootParentId": "2e3fdbdc-b3c9-4f23-a3d6-20935fb6e174",
+  "name": "Order-Start - yes",
+  "auto": true,
+  "contexts": [
+    "Order-Start-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Order-Start.Order-Start-yes",
+      "affectedContexts": [
+        {
+          "name": "Order-Start-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "Order-Start-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "네 감사합니다. 주소를 불러 주시겠어요?",
+            "네 주문 되었습니다. 받으실 주소는 어떻게 되세요?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "439e9cb7-3ded-4b6a-b4a7-804c239c9ca3",
+      "data": [
+        {
+          "text": "ㅇ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f98f1d99-ab49-4293-a3b9-0274927bfeb2",
+      "data": [
+        {
+          "text": "그거맞음",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9c183157-23c5-4b01-b54a-934fda492dd0",
+      "data": [
+        {
+          "text": "물론",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6caa1477-d192-4f36-bfa3-85628870a698",
+      "data": [
+        {
+          "text": "바로 그거야",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d036b814-6997-4f3f-a406-c8bfb2c5080b",
+      "data": [
+        {
+          "text": "ㄱㄱ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cb14e258-3fac-4ece-a497-a830b97f6619",
+      "data": [
+        {
+          "text": "맞음",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d6ce2d15-832c-4694-935c-ee7667e2445a",
+      "data": [
+        {
+          "text": "해",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "922327e4-0d4f-47a4-8beb-c59b5062a626",
+      "data": [
+        {
+          "text": "좋아",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8b7fddd1-7c34-4109-b1d7-e2b7e9b5d2c3",
+      "data": [
+        {
+          "text": "ㅇㅇ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4d834021-7664-42b4-9f18-029f830965ce",
+      "data": [
+        {
+          "text": "응",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c2a462a1-4f5c-428f-9d9a-7aba7c775b0e",
+      "data": [
+        {
+          "text": "맞아",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fb70bf19-eb62-4b73-a167-2c2254fe1a90",
+      "data": [
+        {
+          "text": "그럼",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "11e130f3-806e-43f6-b58d-d6b299fbcea7",
+      "data": [
+        {
+          "text": "확인",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 3,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "70fc8d7f-6418-47cd-8f70-47fef1689cca",
+      "data": [
+        {
+          "text": "상관없어",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6fca3a4b-1b3f-46a0-8fcd-b04ec7824809",
+      "data": [
+        {
+          "text": "동의",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6b0af382-1f63-413a-a1fa-093c7b153a30",
+      "data": [
+        {
+          "text": "그래",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
